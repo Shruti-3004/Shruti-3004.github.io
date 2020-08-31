@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<style>
+  body {
+    background: #000033;
+    margin-top: 20px;
+    font-family: Pacifico, cursive;
+    color: white;
+  }
+  .thumbnails img {
+    height: 80px;
+    width: 60px;
+    border: 4px solid #555;
+    padding: 1px;
+    margin: 0 10px 10px 0;
+  }
+  .thumbnails img: hover{
+    border: 4px solid #00ccff;
+  }
+  .preview img {
+    border: 4px solid #444;
+    padding: 1px;
+    width: 800px;
+  }
+</style>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Photo Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container-sm" align="center">
+      <h1>My Web Page Gallery</h1>
+      <br>
+
+      <div class="thumbnails">
+        <img onmouseover="preview.src=img1.src" name="img1" src="images\img1.jpg" />
+        <img onmouseover="preview.src=img2.src" name="img2" src="images\img2.jpg" />
+        <img onmouseover="preview.src=img3.src" name="img3" src="images\img3.jpg" />
+        <img onmouseover="preview.src=img4.src" name="img4" src="images\img4.jpg" />
+        <img onmouseover="preview.src=img5.src" name="img5" src="images\img5.jpg" />
+        <img onmouseover="preview.src=img6.src" name="img6" src="images\img6.jpg" />
+        <img onmouseover="preview.src=img7.src" name="img7" src="images\img7.jpg" />
+        <img onmouseover="preview.src=img8.src" name="img8" src="images\img8.jpg" />
+        <img onmouseover="preview.src=img9.src" name="img9" src="images\img9.jpg" />
+        <img onmouseover="preview.src=img10.src" name="img10" src="images\img10.jpg" />
+        <img onmouseover="preview.src=img11.src" name="img11" src="images\img11.jpg" />
+        <img onmouseover="preview.src=img12.src" name="img12" src="images\img12.jpg" />
+        <img onmouseover="preview.src=simg13.src" name="img13" src="images\img13.jpg" />
+      </div>
+
+      <div class="preview" align="center">
+        <img name="preview" src="images\img1.jpg" />
+      </div>
+    </div>
+
+  </body>
+</html>
